@@ -17,7 +17,7 @@ export default function Home() {
   };
 
   return (
-    <div>
+    <div className="flex items-center justify-center">
       <h1>I'm home</h1>
       <button
         onClick={logoutHandler}
